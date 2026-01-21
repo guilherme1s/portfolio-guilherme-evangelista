@@ -17,16 +17,21 @@ export function About() {
             Guilherme Evangelista
           </h1>
           <h3 className="text-3xl text-center xl:text-left font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Desenvolvedor Full-Stack
+            Front-end Developer
           </h3>
         </div>
 
         <p className="mt-5">
-          Desenvolvedor Full Stack / engenheiro da computação com destaque em
-          front-end. Apaixonado por criar soluções e interfaces modernas, tenho
-          experiência profissional em todas as etapas do ciclo de
-          desenvolvimento de sistemas. Trabalhando principalmente com React,
-          Vue.js, TypeScript, JavaScript, PHP e MySQL.
+          Desenvolvedor web com foco em Front-end e experiência Full Stack.
+          Atuação na criação de interfaces, dashboards e aplicações web usadas
+          por empresas e projetos pessoais, desde a definição das telas até a
+          integração com dados e regras de negócio. Experiência principalmente
+          com React, TypeScript e Vue.js, integrando o Front-end com APIs e
+          dados do back-end.
+        </p>
+
+        <p className="mt-3 text-sm text-gray-700 text-left">
+          Formação em Engenharia da Computação - Centro Universitário Eniac
         </p>
 
         <div className="mt-5">
