@@ -16,7 +16,7 @@ export function ProjectSection() {
               description={project.description}
               deployUrl={project.deployUrl}
               projectUrl={project.gitHubUrl}
-              tags={project.tecnology}
+              tags={project.technologies}
             />
           );
         })}
