@@ -22,12 +22,10 @@ export function About() {
         </div>
 
         <p className="mt-5">
-          Desenvolvedor web com foco em Front-end e experiência Full Stack.
-          Atuação na criação de interfaces, dashboards e aplicações web usadas
-          por empresas e projetos pessoais, desde a definição das telas até a
-          integração com dados e regras de negócio. Experiência principalmente
-          com React, TypeScript e Vue.js, integrando o Front-end com APIs e
-          dados do back-end.
+          Desenvolvedor Front-End e engenheiro da computação com experiência na
+          construção de plataformas orientadas a dados, focado em arquitetura
+          escalável e experiência do usuário. Atuando principalmente com React,
+          Vue.js e TypeScript.
         </p>
 
         <p className="mt-3 text-sm text-gray-700 text-left">
@@ -49,7 +47,7 @@ export function About() {
           <div className="flex items-center gap-2">
             <LinkedInIcon fontSize="large" />
             <a
-              href="https://www.linkedin.com/in/guilherme-silva-evangelista022/"
+              href="https://www.linkedin.com/in/guilherme-silva-evangelista/"
               target="_blank"
             >
               Linkedin

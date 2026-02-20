@@ -72,7 +72,7 @@ export function NavDesktop({
         <div className="flex items-center gap-2 hover:text-gray-300 transition-colors duration-100">
           <LinkedInIcon fontSize="large" />
           <a
-            href="https://www.linkedin.com/in/guilherme-silva-evangelista022/"
+            href="https://www.linkedin.com/in/guilherme-silva-evangelista/"
             target="_blank"
           >
             Linkedin
