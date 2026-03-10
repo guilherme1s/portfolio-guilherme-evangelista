@@ -16,7 +16,7 @@ export function About() {
           <h1 className="text-4xl xl:text-5xl font-medium uppercase mb-2 text-center xl:text-left">
             Guilherme Evangelista
           </h1>
-          <h3 className="text-3xl text-center xl:text-left font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl text-center xl:text-left font-bold bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Front-end Developer
           </h3>
         </div>
@@ -28,7 +28,7 @@ export function About() {
           Vue.js e TypeScript.
         </p>
 
-        <p className="mt-3 text-sm text-gray-700 text-left">
+        <p className="mt-3 text-sm text-gray-700 text-left dark:text-white">
           Formação em Engenharia da Computação - Centro Universitário Eniac
         </p>
 
