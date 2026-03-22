@@ -2,9 +2,9 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { Layout } from "./layouts/Layout";
 import { AboutSection } from "./components/about/AboutSection";
 import { ExperienceSection } from "./components/experience/ExperienceSection";
-import { ProjectSection } from "./components/projects/ProjectSection";
 import { ContactFormSection } from "./components/contactForm/ContactFormSection";
 import { SkillSection } from "./components/skills/SkillSection";
+import { ProjectSection } from "./components/projects/ProjectSection";
 
 export function App() {
   return (
