@@ -1,6 +1,30 @@
 export const projects = [
 	{
 		id: 1,
+		title: "MyFinanceFlow",
+		description:
+			"Aplicação web para gerenciamento financeiro, desenvolvida com objetivo de organização e controle de transações. A plataforma permite registrar entradas e saídas, categorizando cada transação de forma intuitiva e acompanhar o panorama das finanças em um dashboard com resumos e gráficos. ",
+		technologies: [
+			"React",
+			"TypeScript",
+			"Tailwind CSS",
+			"Axios",
+			"React Router",
+			"TanStack Query",
+			"React Hook Form",
+			"Zod",
+			"Vitest",
+			"Testing Library",
+			"Recharts",
+			"json-server",
+			"shadcn/ui"
+		],
+		deployUrl: "https://my-finance-flow-app.vercel.app/",
+		gitHubUrl: "https://github.com/guilherme1s/my-finance-flow",
+		image: 'myFinanceFlow'
+	},
+	{
+		id: 2,
 		title: "ShopHub - E-commerce",
 		description:
 			"Aplicação de e-commerce com fluxo completo de compra, incluindo listagem dinâmica de produtos via API, filtros, página de detalhes, carrinho e checkout. Estruturado com foco em componentização, organização de estado global com Context API e experiência do usuário.",
@@ -17,7 +41,7 @@ export const projects = [
 		image: "shophub"
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Gerenciador de Projetos",
 		description:
 			"Aplicação para gerenciamento de projetos e tarefas com operações de CRUD e manipulação de estado local. Desenvolvido com foco em componentização e boas práticas em React.",
@@ -27,51 +51,7 @@ export const projects = [
 		image: 'gerenciador-projetos'
 	},
 	{
-		id: 3,
-		title: "DT Money",
-		description:
-			"Aplicação de controle financeiro para registro e categorização de transações, com validação de formulários utilizando React Hook Form e Zod, consumo de API com Axios e gerenciamento de estado via Context API.",
-		technologies: [
-			"React",
-			"TypeScript",
-			"Styled Components",
-			"Context API",
-			"Axios",
-			"React Hook Form",
-			"Zod",
-			"Radix UI"
-		],
-		gitHubUrl: "https://github.com/guilherme1s/dt-money",
-		image: "dt-money"
-	},
-	{
 		id: 4,
-		title: "Ignite Timer",
-		description:
-			"Aplicação de timer no formato Pomodoro com criação e histórico de ciclos, utilizando Context API para gerenciamento de estado e Styled Components para estilização.",
-		technologies: [
-			"React",
-			"TypeScript",
-			"Styled Components",
-			"Context API",
-			"React Router"
-		],
-		deployUrl: "https://02-ignite-timer-three-eta.vercel.app/",
-		gitHubUrl: "https://github.com/guilherme1s/02-ignite-timer",
-		image: "ignite-timer"
-	},
-	{
-		id: 5,
-		title: "Ignite Feed",
-		description:
-			"Aplicação de rede social com criação e interação de posts, focada em componentização, tipagem forte com TypeScript e organização de estado.",
-		technologies: ["React", "TypeScript", "CSS Modules"],
-		deployUrl: "https://ignite-feed-ts-taupe.vercel.app/",
-		gitHubUrl: "https://github.com/guilherme1s/igniteFeedTS",
-		image: "ignite-feed"
-	},
-	{
-		id: 6,
 		title: "Landing Page TCC",
 		description:
 			"Landing page institucional desenvolvida para apresentação de projeto acadêmico, com foco em layout responsivo e estruturação semântica.",
@@ -81,7 +61,7 @@ export const projects = [
 		image: "landing-page"
 	},
 	{
-		id: 7,
+		id: 5,
 		title: "Formulário de Login",
 		description:
 			"Interface de autenticação com foco em responsividade, organização visual e boas práticas de HTML semântico e CSS.",
@@ -91,7 +71,7 @@ export const projects = [
 		image: "login-form"
 	},
 	{
-		id: 8,
+		id: 6,
 		title: "Exercícios em PHP",
 		description:
 			"Coleção de exercícios práticos em PHP envolvendo lógica de programação, manipulação de strings e cálculos matemáticos.",

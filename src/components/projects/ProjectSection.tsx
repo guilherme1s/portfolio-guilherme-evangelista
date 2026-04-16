@@ -14,6 +14,7 @@ import igniteFeed from "../../assets/ignite-feed.png";
 import igniteTimer from "../../assets/ignite-timer.png";
 import landingPage from "../../assets/lp.png";
 import loginForm from "../../assets/loginform.png";
+import myFinanceFlow from "../../assets/my-finance-flow.png";
 import { useState } from "react";
 
 export function ProjectSection() {
@@ -45,6 +46,7 @@ export function ProjectSection() {
     "ignite-feed": igniteFeed,
     "landing-page": landingPage,
     "login-form": loginForm,
+    "myFinanceFlow": myFinanceFlow,
   };
 
   return (
@@ -83,7 +85,10 @@ export function ProjectSection() {
       </div>
 
       <div className="flex justify-center">
-        <button onClick={handleShowProjects} className="flex items-center gap-1">
+        <button
+          onClick={handleShowProjects}
+          className="flex items-center gap-1"
+        >
           <span className="cursor-pointer text-2xl text-gray-800 dark:text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500">
             {showAllProjects ? "Recolher" : "Ver mais"}
           </span>
