@@ -20,7 +20,7 @@ import { useState } from "react";
 export function ProjectSection() {
   const [showAllProjects, setshowAllProjects] = useState(false);
 
-  const maxVisible = 4;
+  const maxVisible = 2;
   const visibleProjects = showAllProjects
     ? projects
     : projects.slice(0, maxVisible);
