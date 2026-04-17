@@ -52,26 +52,6 @@ export const projects = [
 	},
 	{
 		id: 4,
-		title: "Landing Page TCC",
-		description:
-			"Landing page institucional desenvolvida para apresentação de projeto acadêmico, com foco em layout responsivo e estruturação semântica.",
-		technologies: ["HTML", "CSS", "JavaScript"],
-		deployUrl: "https://guilherme1s.github.io/front-end/",
-		gitHubUrl: "https://github.com/guilherme1s/front-end",
-		image: "landing-page"
-	},
-	{
-		id: 5,
-		title: "Formulário de Login",
-		description:
-			"Interface de autenticação com foco em responsividade, organização visual e boas práticas de HTML semântico e CSS.",
-		technologies: ["HTML", "CSS"],
-		deployUrl: "https://guilherme1s.github.io/login-form/",
-		gitHubUrl: "https://github.com/guilherme1s/login-form",
-		image: "login-form"
-	},
-	{
-		id: 6,
 		title: "Exercícios em PHP",
 		description:
 			"Coleção de exercícios práticos em PHP envolvendo lógica de programação, manipulação de strings e cálculos matemáticos.",

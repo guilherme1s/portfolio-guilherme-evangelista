@@ -38,6 +38,8 @@ export function ProjectSection() {
     setshowAllProjects((prev) => !prev);
   };
 
+  console.log(visibleProjects.length);
+
   const projectImagesMap: Record<string, string> = {
     shophub: shophub,
     "dt-money": dtmoney,
@@ -46,7 +48,7 @@ export function ProjectSection() {
     "ignite-feed": igniteFeed,
     "landing-page": landingPage,
     "login-form": loginForm,
-    "myFinanceFlow": myFinanceFlow,
+    myFinanceFlow: myFinanceFlow,
   };
 
   return (
@@ -89,11 +91,14 @@ export function ProjectSection() {
           onClick={handleShowProjects}
           className="flex items-center gap-1"
         >
-          <span className="cursor-pointer text-2xl text-gray-800 dark:text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500">
-            {showAllProjects ? "Recolher" : "Ver mais"}
-          </span>
+          {projects.length > maxVisible && (
+            <span className="cursor-pointer text-2xl text-gray-800 dark:text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500">
+              {showAllProjects ? "Recolher" : "Ver mais"}
+            </span>
+          )}
 
-          {showAllProjects ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+          {projects.length > maxVisible &&
+            (showAllProjects ? <ExpandLessIcon /> : <ExpandMoreIcon />)}
         </button>
       </div>
     </section>
