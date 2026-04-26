@@ -15,6 +15,8 @@ import igniteTimer from "../../assets/ignite-timer.png";
 import landingPage from "../../assets/lp.png";
 import loginForm from "../../assets/loginform.png";
 import myFinanceFlow from "../../assets/my-finance-flow.png";
+import airNow from "../../assets/air-now.png";
+
 import { useState } from "react";
 
 export function ProjectSection() {
@@ -38,8 +40,6 @@ export function ProjectSection() {
     setshowAllProjects((prev) => !prev);
   };
 
-  console.log(visibleProjects.length);
-
   const projectImagesMap: Record<string, string> = {
     shophub: shophub,
     "dt-money": dtmoney,
@@ -48,7 +48,9 @@ export function ProjectSection() {
     "ignite-feed": igniteFeed,
     "landing-page": landingPage,
     "login-form": loginForm,
-    myFinanceFlow: myFinanceFlow,
+    "myFinanceFlow": myFinanceFlow,
+		"airNow": airNow
+
   };
 
   return (

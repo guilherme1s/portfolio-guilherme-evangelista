@@ -42,6 +42,24 @@ export const projects = [
 	},
 	{
 		id: 3,
+		title: "AirNow - Qualidade do ar",
+		description:
+			"Aplicação web para consulta da qualidade do ar em tempo real, permitindo buscar cidades e visualizar índice de qualidade do ar (AQI), condições climáticas, níveis de poluentes e recomendações de saúde. Conta com geolocalização para identificação automática da localização do usuário, oferecendo uma experiência rápida, prática e informativa.",
+		technologies: [
+			"Vue 3",
+			"TypeScript",
+			"TanStack Vue Query",
+			"Axios",
+			"Zod",
+			"PrimeVue",
+			"PrimeFlex",
+		],
+		deployUrl: "https://air-now.vercel.app/",
+		gitHubUrl: "https://github.com/guilherme1s/air-now",
+		image: "airNow"
+	},
+	{
+		id: 4,
 		title: "Gerenciador de Projetos",
 		description:
 			"Aplicação para gerenciamento de projetos e tarefas com operações de CRUD e manipulação de estado local. Desenvolvido com foco em componentização e boas práticas em React.",
@@ -51,7 +69,7 @@ export const projects = [
 		image: 'gerenciador-projetos'
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Exercícios em PHP",
 		description:
 			"Coleção de exercícios práticos em PHP envolvendo lógica de programação, manipulação de strings e cálculos matemáticos.",
