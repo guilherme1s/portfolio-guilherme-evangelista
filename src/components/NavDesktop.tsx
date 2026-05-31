@@ -13,6 +13,7 @@ export function NavDesktop({
   skills,
 }: NavProps) {
   const { dark, toggleTheme } = useTheme();
+  const currentYear = new Date().getFullYear();
 
   return (
     <nav className="hidden xl:flex flex-col items-center justify-evenly h-full text-lg">
@@ -87,7 +88,7 @@ export function NavDesktop({
       />
 
       <footer className="text-xs mt-6">
-        <p>©2025 Guilherme Evangelista.</p>
+        <p>&copy; {currentYear} Guilherme Evangelista.</p>
         <p>Todos os direitos reservados.</p>
       </footer>
     </nav>
