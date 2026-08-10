@@ -37,8 +37,8 @@ export function ExpansionCard({ expansionPanel }: ExpansionCardProps) {
                 className={`flex flex-col xl:flex-row w-full justify-between cursor-pointer transition-colors duration-300
                 ${
                   open === item.id
-                    ? "bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"
-                    : "text-gray-800 dark:text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500"
+                    ? "text-blue-500"
+                    : "text-gray-800 dark:text-white hover:text-blue-500"
                 }`}
               >
                 <h3 className="text-2xl font-medium cursor-pointer">

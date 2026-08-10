@@ -48,9 +48,8 @@ export function ProjectSection() {
     "ignite-feed": igniteFeed,
     "landing-page": landingPage,
     "login-form": loginForm,
-    "myFinanceFlow": myFinanceFlow,
-		"airNow": airNow
-
+    myFinanceFlow: myFinanceFlow,
+    airNow: airNow,
   };
 
   return (
@@ -94,7 +93,7 @@ export function ProjectSection() {
           className="flex items-center gap-1"
         >
           {projects.length > maxVisible && (
-            <span className="cursor-pointer text-2xl text-gray-800 dark:text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500">
+            <span className="cursor-pointer text-2xl text-gray-800 dark:text-white hover:text-blue-500">
               {showAllProjects ? "Recolher" : "Ver mais"}
             </span>
           )}

@@ -35,7 +35,7 @@ export function NavMobile({
           <a
             onClick={onOptionClicked}
             href={about}
-            className="font-sans font-light"
+            className="font-sans font-light hover:text-blue-500 transition-colors duration-100"
           >
             Sobre Mim
           </a>
@@ -46,7 +46,7 @@ export function NavMobile({
           <a
             onClick={onOptionClicked}
             href={experience}
-            className="font-sans font-light"
+            className="font-sans font-light hover:text-blue-500 transition-colors duration-100"
           >
             Experiências
           </a>
@@ -57,7 +57,7 @@ export function NavMobile({
           <a
             onClick={onOptionClicked}
             href={projects}
-            className="font-sans font-light"
+            className="font-sans font-light hover:text-blue-500 transition-colors duration-100"
           >
             Projetos
           </a>
@@ -68,7 +68,7 @@ export function NavMobile({
           <a
             onClick={onOptionClicked}
             href={skills}
-            className="font-sans font-light"
+            className="font-sans font-light hover:text-blue-500 transition-colors duration-100"
           >
             Habilidades
           </a>
@@ -79,7 +79,7 @@ export function NavMobile({
           <a
             onClick={onOptionClicked}
             href={contact}
-            className="font-sans font-light"
+            className="font-sans font-light hover:text-blue-500 transition-colors duration-100"
           >
             Contato
           </a>

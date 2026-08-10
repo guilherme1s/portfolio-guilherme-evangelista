@@ -16,7 +16,7 @@ export function About() {
           <h1 className="text-4xl xl:text-5xl font-medium uppercase mb-2 text-center xl:text-left">
             Guilherme Evangelista
           </h1>
-          <h3 className="text-3xl text-center xl:text-left font-bold bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl text-center xl:text-left font-bold text-blue-500">
             Front-end Developer
           </h3>
         </div>

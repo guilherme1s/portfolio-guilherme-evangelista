@@ -10,7 +10,7 @@
   --color-dark-primary: #202024;
   --color-dark-secondary: #323238;
 
-  --font-pacifico: "Pacifico", cursive;
+  --font-pixel: "Press Start 2P", monospace;
 }
 
 @layer base {

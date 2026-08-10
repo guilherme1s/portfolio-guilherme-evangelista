@@ -17,12 +17,12 @@ export function NavDesktop({
 
   return (
     <nav className="hidden xl:flex flex-col items-center justify-evenly h-full text-lg">
-      <h1 className="text-3xl font-pacifico">Guilherme</h1>
+      <h1 className="text-lg font-pixel">Guilherme</h1>
 
       <ul className="flex flex-col gap-4">
         <li>
           <a
-            className="hover:text-gray-300 transition-colors duration-100"
+            className="hover:text-blue-500 transition-colors duration-100"
             href={about}
           >
             Sobre Mim
@@ -30,7 +30,7 @@ export function NavDesktop({
         </li>
         <li>
           <a
-            className="hover:text-gray-300 transition-colors duration-100"
+            className="hover:text-blue-500 transition-colors duration-100"
             href={experience}
           >
             Experiências
@@ -38,7 +38,7 @@ export function NavDesktop({
         </li>
         <li>
           <a
-            className="hover:text-gray-300 transition-colors duration-100"
+            className="hover:text-blue-500 transition-colors duration-100"
             href={projects}
           >
             Projetos
@@ -46,7 +46,7 @@ export function NavDesktop({
         </li>
         <li>
           <a
-            className="hover:text-gray-300 transition-colors duration-100"
+            className="hover:text-blue-500 transition-colors duration-100"
             href={skills}
           >
             Habilidades
@@ -54,7 +54,7 @@ export function NavDesktop({
         </li>
         <li>
           <a
-            className="hover:text-gray-300 transition-colors duration-100"
+            className="hover:text-blue-500 transition-colors duration-100"
             href={contact}
           >
             Contato
@@ -63,14 +63,14 @@ export function NavDesktop({
       </ul>
 
       <div className="flex flex-col gap-2">
-        <div className="flex items-center gap-2 hover:text-gray-300 transition-colors duration-100">
+        <div className="flex items-center gap-2 hover:text-blue-500 transition-colors duration-100">
           <GitHubIcon fontSize="large" />
           <a href="https://github.com/guilherme1s" target="_blank">
             Github
           </a>
         </div>
 
-        <div className="flex items-center gap-2 hover:text-gray-300 transition-colors duration-100">
+        <div className="flex items-center gap-2 hover:text-blue-500 transition-colors duration-100">
           <LinkedInIcon fontSize="large" />
           <a
             href="https://www.linkedin.com/in/guilherme-silva-evangelista/"
