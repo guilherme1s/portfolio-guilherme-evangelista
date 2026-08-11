@@ -1,11 +1,11 @@
 export const professional = [
 	{
 		id: 1,
-		title: "SESATECH",
+		title: "Sesatech",
 		subtitle: "Agosto 2026 – Presente",
 		role: "Desenvolvedor Front-end",
 		topics: [
-			"Desenvolvimento front-end com Vue.js e Vuetify.",
+			"Desenvolvimento front-end com Vue.js, TypeScript e Vuetify.",
 			"Criação e manutenção de componentes reutilizáveis e interfaces responsivas.",
 			"Implementação de telas a partir de layouts desenvolvidos no Figma.",
 			"Integração com APIs para consumo e exibição de dados.",
