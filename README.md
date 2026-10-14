@@ -25,5 +25,4 @@ Aplicação web desenvolvida para apresentação profissional, destacando experi
 - EmailJS
 
 ## Preview
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c25435d-f046-4662-8621-f1b3071953de" />
-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d28fa3f1-831e-429b-9e96-52701fd95e92" />
