@@ -18,7 +18,9 @@ export function Sidebar() {
   return (
     <div className="w-full xl:w-80 h-28 xl:h-screen bg-primary text-white">
       <div className="xl:hidden flex justify-between items-center px-12 h-full">
-        <h1 className="text-lg font-pixel">Guilherme</h1>
+        <h1 className="text-2xl uppercase font-semibold">
+          ge<span className="text-blue-500 font-bold">.</span>
+        </h1>
 
         <MenuIcon
           fontSize="large"

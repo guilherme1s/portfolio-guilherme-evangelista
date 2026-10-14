@@ -9,6 +9,7 @@ export function Avatar({ ...props }: AvatarProps) {
         {...props}
         className="rounded-full border-4 border-white outline-4 outline-primary"
         alt="Imagem perfil Guilherme Evangelista"
+        onContextMenu={(e) => e.preventDefault()}
       />
     </div>
   );

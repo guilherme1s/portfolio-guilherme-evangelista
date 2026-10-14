@@ -17,7 +17,9 @@ export function NavDesktop({
 
   return (
     <nav className="hidden xl:flex flex-col items-center justify-evenly h-full text-lg">
-      <h1 className="text-lg font-pixel">Guilherme</h1>
+      <h1 className="text-2xl font-semibold uppercase">
+        GE<span className="text-blue-500 font-bold">.</span>
+      </h1>
 
       <ul className="flex flex-col gap-4">
         <li>
